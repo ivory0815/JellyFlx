@@ -1,22 +1,18 @@
-/* Ändere Hintergrundfarbe */
+/* Hintergrundfarbe ändern */
 body {
   background-color: #141414;
 }
 
-/* Ändere Textfarbe */
+/* Textfarbe und Schriftart ändern */
 .jellyfin-header,
 .jellyfin-text {
   color: #ffffff;
+  font-family: Arial, sans-serif;
 }
 
-/* Netflix-ähnlicher Hintergrund */
+/* Header-Hintergrund ändern */
 .jellyfin-header {
   background-color: #e50914;
-}
-
-/* Ändere Schriftart */
-.jellyfin-text {
-  font-family: Arial, sans-serif;
 }
 
 /* Netflix-ähnliche Schaltflächen */
@@ -29,4 +25,53 @@ body {
 /* Hervorgehobene Schaltflächen */
 .jellyfin-button:hover {
   background-color: #ff3d00;
+}
+
+/* Hinzufügen einer Schattenbox */
+.jellyfin-card {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Hinzufügen von abgerundeten Ecken */
+.jellyfin-card,
+.jellyfin-button {
+  border-radius: 5px;
+}
+
+/* Anpassung der Navigationsleiste */
+.nav-bar {
+  background-color: #000000;
+}
+
+/* Navigationsleisten-Textfarbe ändern */
+.nav-bar a {
+  color: #ffffff;
+}
+
+/* Hervorgehobener Menüpunkt */
+.nav-bar a:hover {
+  color: #e50914;
+}
+
+/* Anpassung des Fußbereichs */
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Verbergen des Server-Logos */
+.jellyfin-logo {
+  display: none !important;
+}
+
+/* Anpassung der Video-Player-Oberfläche (optional) */
+.video-player {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Hinzufügen einer benutzerdefinierten Hintergrundgrafik für den Video-Player (optional) */
+.video-player {
+  background-image: url('deine-benutzerdefinierte-hintergrundgrafik.jpg');
+  background-size: cover;
 }
