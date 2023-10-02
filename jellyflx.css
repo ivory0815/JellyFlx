@@ -1,0 +1,113 @@
+/* Allgemeines */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+}
+
+.header .logo {
+  float: left;
+  width: 150px;
+}
+
+.header .search {
+  float: right;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #000;
+  color: #fff;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+  background-color: #111;
+}
+
+/* Hauptbereich */
+.main {
+  margin-left: 200px;
+}
+
+.main .content {
+  background-color: #111;
+  color: #fff;
+  padding: 10px;
+}
+
+.main .content .title {
+  font-size: 20px;
+}
+
+.main .content .info {
+  font-size: 16px;
+}
+
+.main .content .image {
+  width: 100%;
+}
+
+.main .content .controls {
+  padding: 10px;
+}
+
+.main .content .controls .play {
+  background-color: #fff;
+  color: #000;
+}
+
+.main .content .controls .pause {
+  background-color: #000;
+  color: #fff;
+}
+
+.main .content .controls .volume {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.footer .copyright {
+  text-align: center;
+}
