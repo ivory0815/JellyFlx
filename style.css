@@ -72,6 +72,5 @@ body {
 
 /* Hinzufügen einer benutzerdefinierten Hintergrundgrafik für den Video-Player (optional) */
 .video-player {
-  background-image: url('deine-benutzerdefinierte-hintergrundgrafik.jpg');
   background-size: cover;
 }
